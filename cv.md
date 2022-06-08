@@ -1,4 +1,4 @@
-![avtar](/Avatar.jpg)
+![avtar](/assets/img/Avatar.jpg)
 
 # **Arsen Kozlov**
 

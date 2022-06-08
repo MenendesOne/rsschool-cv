@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Index</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/svg/SVG.ico">
+  </head>
+  <body>
+    <header></header>
+      <div class="container"></div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english_level" class="nav-link">English level</a></li>
+        </ul>
+      </nav>
+
+    <section class="section" id="profile">
+    <h1 class="section-title"><img src="assets/img/Avatar.jpg" alt="My avatar" width="540" height="540"><br>
+    Arsen Kozlov</h1>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      Email: <span class="contactslink" title="Email"> menendes690@gmail.com</span><br>
+      Telegram: <a href="https://t.me/MenendesOne" class="contactslink" title="Telegram">@MenendesOne</a><br>
+      Discord: <span class="contactslink" title="Discord">MENENDES#8467</span><br>
+      Github: <a href="https://github.com/MenendesOne" class="contactslink" title="Github">@MenendesOne</a><hr>
+    </section>
+    <section class="section" id="about_me">
+      <h2 class="section-title">About me</h2>
+      <p>I would like to learn something new, become an IT specialist, create useful programs, maybe even get into a large IT company.<br> My strengths are enthusiasm, perseverance, purposefulness</p>
+      <hr>
+    </section>
+    <main>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p>Basic skills:</p>
+      <ul>
+        <li>Git</li>
+        <li>C#</li>
+        <li>C++</li>
+        <li>Html</li>
+        <li>CSS</li>
+      </ul><hr>
+    </section>
+    <section class="section" id="code_example">
+      <h2 class="section-title">Code example</h2>
+      <pre class="codeexample">
+      var a = 5,
+          b = 10;
+      function multiply () {
+        return a * b
+      }
+      multiply()
+      </pre><hr>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <p>Secondary general education, self-study and video courses on youtube</p>
+      <p>Completed courses:</p>
+      <ul>
+        <li><a href="https://ru.code-basics.com/languages/css" class="contactslink" title="Code-basics.com">CSS beginner</a></li>
+        <li><a href="https://ru.code-basics.com/languages/html" class="contactslink" title="Code-basics.com">Html beginner</a></li>
+      </ul><hr>
+    </section>
+    <section class="section" id="english_level">
+      <h2 class="section-title">English level</h2>
+      <p>C1 Advanced according to the EFSET test</p><hr>
+    </section>
+      <div class="container main-container">
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <span class="section">© 2022</span><br>
+        <a href="https://github.com/MenendesOne" class="contactslink section" title="Github">@MenendesOne</a><br>
+        <a href="https://rs.school/js/" class="contactslink section" title="RS School link">RS School</a>
+        <div class="pictureright">
+          <img src="assets/svg/rs_school_js.svg" alt="Course logo" width="150" height="55">
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
