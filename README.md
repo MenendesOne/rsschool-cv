@@ -1,1 +1,1 @@
-# rsschool-cv
+https://MenendesOne.github.io/rsschool-cv/
