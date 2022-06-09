@@ -9,22 +9,25 @@
     <link rel="icon" href="assets/svg/SVG.ico">
   </head>
   <body>
-    <header></header>
-      <div class="container"></div>
+    <header class="container">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#about_me" class="nav-link">About&nbsp;me</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#code_example" class="nav-link">Code&nbsp;example</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english_level" class="nav-link">English level</a></li>
+          <li class="nav-item"><a href="#english_level" class="nav-link">English&nbsp;level</a></li>
         </ul>
       </nav>
-
+    </header>
     <section class="section" id="profile">
-    <h1 class="section-title"><img src="assets/img/Avatar.jpg" alt="My avatar" width="540" height="540"><br>
+      <div class="avatar">
+        <img src="assets/img/Avatar.jpg" alt="My avatar" style="width:100%;">
+      </div>
+    <h1 class="section-title">
+      <br>
     Arsen Kozlov</h1>
     </section>
     <section class="section" id="contacts">
@@ -82,9 +85,10 @@
       <div class="container">
         <span class="section">© 2022</span><br>
         <a href="https://github.com/MenendesOne" class="contactslink section" title="Github">@MenendesOne</a><br>
-        <a href="https://rs.school/js/" class="contactslink section" title="RS School link">RS School</a>
         <div class="pictureright">
-          <img src="assets/svg/rs_school_js.svg" alt="Course logo" width="150" height="55">
+          <a href="https://rs.school/js/" class="contactslink section" title="RS School">
+            <img src="assets/svg/rs_school_js.svg" alt="Course logo" width="150" height="55">
+          </a>
         </div>
       </div>
     </footer>
